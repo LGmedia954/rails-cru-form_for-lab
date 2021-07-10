@@ -1,4 +1,4 @@
-class Genre < ApplicationRecord
-  has_many :songs
-
+class Genre < ActiveRecord::Base
+	has_many :songs
+  
 end
